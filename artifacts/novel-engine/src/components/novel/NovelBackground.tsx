@@ -6,10 +6,10 @@ interface NovelBackgroundProps {
 }
 
 const BG_IMAGES: Record<string, string> = {
-  mountain_fog: "/assets/bg/mountain_fog.png",
-  mountain_clearing: "/assets/bg/mountain_clearing.png",
-  forest_chase: "/assets/bg/forest_chase.png",
-  dark_hole: "/assets/bg/dark_hole.png",
+  mountain_fog: "/assets/bg/mountain_fog.jpg",
+  mountain_clearing: "/assets/bg/mountain_clearing.jpg",
+  forest_chase: "/assets/bg/forest_chase.jpg",
+  dark_hole: "/assets/bg/dark_hole.jpg",
 };
 
 export function NovelBackground({ bgKey, effectCommand }: NovelBackgroundProps) {
