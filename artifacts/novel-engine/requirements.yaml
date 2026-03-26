@@ -1,0 +1,11 @@
+packages:
+  "framer-motion": "For complex cinematic animations, background crossfades, and visual novel effects (slide-ins, fades)"
+  "lucide-react": "For UI icons like play, pause, skip, menu"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes safely"
+  "@workspace/api-client-react": "Workspace dependency for API hooks"
+
+notes:
+  - Relying on @workspace/api-client-react for data fetching.
+  - Backgrounds are implemented as lush, atmospheric CSS gradients as requested.
+  - Using a cinematic typography pairing (Noto Serif JP / Shippori Mincho).
